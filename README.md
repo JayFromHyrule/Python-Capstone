@@ -11,7 +11,7 @@ Students learning to code and build basic interactive Python apps.
 
 Anyone interested in small-scale, privacy-conscious data lookup tools.
 
-Solution + Limitations
+## Solution + Limitations
 How it solves the problem:
 Censors birthdays by default to protect privacy.
 
@@ -21,14 +21,12 @@ Allows users to add new students to the organizer at any time.
 
 Simple, menu-driven interface that works in any terminal.
 
-# Limitations:
+## Limitations:
 No option to delete or edit student entries.
 
 Data is not saved between sessions (no file/database storage).
 
 Only supports first-name lookup; duplicates or similar names could confuse results.
-
-Input validation is minimal (e.g., doesn't check for valid date format).
 
 ## Key Features / Key Components
 Menu System: Offers four main options: view students, reveal birthday, add student, quit.
@@ -54,16 +52,9 @@ Implement student deletion and editing options.
 
 Improve name matching (e.g., support last names or nicknames).
 
-Add basic input validation (e.g., check if the date format is correct).
-
 ## Project Timeline
-Day 1: Planned out features and basic menu system.
-
-Day 2: Implemented core functions (view, reveal, add).
-
-Day 3: Replaced sample data with randomized entries.
-
-Day 4: Final testing and documentation (this README).
+Before I began this project, I brainstormed: How could I solve an issue in my current workplace?
+The project started as a game without any user data storage, but due to requirements, I had to change it and add a section where the user could input their information to enjoy the program, with the focus still being on user data collection.
 
 ## Tools and Resources Used
 Python – Programming language used.
