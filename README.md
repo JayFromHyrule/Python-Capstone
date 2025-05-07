@@ -1,9 +1,74 @@
-# Python-Capstone
-Purpose/Problem Statement - What does your program do? What problem/need is it addressing?
-Target Audience - Who is this for? (ex: students, gamers, young adults, etc.)
-Solution + Limitations - How does your project solve the problem? Are there actions your program would do to solve the problem but doesn’t do?
-Key Features / Key Components - List major parts of your program (what the user can do or see).
-Technical Challenges + Future Plans - What was hard to figure out? What do you wish you could add if you had more time or more experience?
-Project Timeline - Briefly explain how you broke this project up across days, weeks, or months.
-Tools and Resources Used - Include websites, docs, videos, AI, etc.
+## Birthday Organizer
+# Purpose / Problem Statement
+The Birthday Organizer is a simple, interactive Python program that helps users manage and reveal student birthdays while maintaining privacy. It addresses the need for a classroom-friendly tool that protects sensitive information unless specific criteria (e.g., knowing a student's favorite color) are met. This prevents accidental data exposure while making birthday lookups fun and engaging.
+
+# Target Audience
+This program is primarily designed for:
+
+Teachers or classroom organizers managing student birthdays.
+
+Students learning to code and build basic interactive Python apps.
+
+Anyone interested in small-scale, privacy-conscious data lookup tools.
+
+✅ Solution + Limitations
+✅ How it solves the problem:
+Censors birthdays by default to protect privacy.
+
+Only reveals birthday information when the correct favorite color is guessed.
+
+Allows users to add new students to the organizer at any time.
+
+Simple, menu-driven interface that works in any terminal.
+
+# Limitations:
+No option to delete or edit student entries.
+
+Data is not saved between sessions (no file/database storage).
+
+Only supports first-name lookup; duplicates or similar names could confuse results.
+
+Input validation is minimal (e.g., doesn't check for valid date format).
+
+# Key Features / Key Components
+Menu System: Offers four main options: view students, reveal birthday, add student, quit.
+
+Censored View: Displays only first names with birthday hidden.
+
+Guess Mechanic: Requires user to guess favorite color before revealing birthday.
+
+Dynamic Addition: Users can add new full names, birthdays, and favorite colors.
+
+# Technical Challenges + Future Plans
+Challenges:
+Matching first names reliably when full names are stored.
+
+Ensuring input handling is user-friendly without external libraries.
+
+Keeping the program readable and functional without adding extra complexity.
+
+Future Plans:
+Add file saving/loading so student data persists across sessions.
+
+Implement student deletion and editing options.
+
+Improve name matching (e.g., support last names or nicknames).
+
+Add basic input validation (e.g., check if the date format is correct).
+
+# Project Timeline
+Day 1: Planned out features and basic menu system.
+
+Day 2: Implemented core functions (view, reveal, add).
+
+Day 3: Replaced sample data with randomized entries.
+
+Day 4: Final testing and documentation (this README).
+
+# Tools and Resources Used
+Python – Programming language used.
+
+ChatGPT (OpenAI) – Used to brainstorm and generate random data, debug, and help document.
+
+Python Docs – For understanding string, list, and input functions.
 
