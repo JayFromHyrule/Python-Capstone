@@ -1,8 +1,8 @@
-## Birthday Organizer
-# Purpose / Problem Statement
+# Birthday Organizer
+## Purpose / Problem Statement
 The Birthday Organizer is a simple, interactive Python program that helps users manage and reveal student birthdays while maintaining privacy. It addresses the need for a classroom-friendly tool that protects sensitive information unless specific criteria (e.g., knowing a student's favorite color) are met. This prevents accidental data exposure while making birthday lookups fun and engaging.
 
-# Target Audience
+## Target Audience
 This program is primarily designed for:
 
 Teachers or classroom organizers managing student birthdays.
@@ -11,8 +11,8 @@ Students learning to code and build basic interactive Python apps.
 
 Anyone interested in small-scale, privacy-conscious data lookup tools.
 
-✅ Solution + Limitations
-✅ How it solves the problem:
+Solution + Limitations
+How it solves the problem:
 Censors birthdays by default to protect privacy.
 
 Only reveals birthday information when the correct favorite color is guessed.
@@ -30,7 +30,7 @@ Only supports first-name lookup; duplicates or similar names could confuse resul
 
 Input validation is minimal (e.g., doesn't check for valid date format).
 
-# Key Features / Key Components
+## Key Features / Key Components
 Menu System: Offers four main options: view students, reveal birthday, add student, quit.
 
 Censored View: Displays only first names with birthday hidden.
@@ -39,7 +39,7 @@ Guess Mechanic: Requires user to guess favorite color before revealing birthday.
 
 Dynamic Addition: Users can add new full names, birthdays, and favorite colors.
 
-# Technical Challenges + Future Plans
+## Technical Challenges + Future Plans
 Challenges:
 Matching first names reliably when full names are stored.
 
@@ -56,7 +56,7 @@ Improve name matching (e.g., support last names or nicknames).
 
 Add basic input validation (e.g., check if the date format is correct).
 
-# Project Timeline
+## Project Timeline
 Day 1: Planned out features and basic menu system.
 
 Day 2: Implemented core functions (view, reveal, add).
@@ -65,7 +65,7 @@ Day 3: Replaced sample data with randomized entries.
 
 Day 4: Final testing and documentation (this README).
 
-# Tools and Resources Used
+## Tools and Resources Used
 Python – Programming language used.
 
 ChatGPT (OpenAI) – Used to brainstorm and generate random data, debug, and help document.
